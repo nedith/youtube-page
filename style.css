@@ -2,13 +2,30 @@
     background-color: darkmagenta;
     color: black;
     border: 2px solid brown;
+    margin: 10px 0px;
+    width: auto;
+    height: 100px;
 }
 
 .video-section{
     background-color: grey;
+    border: 2px solid rgb(165, 42, 128);
+    margin: 10px 0px;
+    width: 700px;
+    height: 300px;
 }
 
 .side-bar{
     background-color: blue;
     border: 5px solid black;
+    margin: 10px 0px;
+    width: 500px;
+    height: auto;
+}
+
+.content{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    column-gap: 20px;
 }
