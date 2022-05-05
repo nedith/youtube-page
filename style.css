@@ -1,0 +1,14 @@
+.nav-bar{
+    background-color: darkmagenta;
+    color: black;
+    border: 2px solid brown;
+}
+
+.video-section{
+    background-color: grey;
+}
+
+.side-bar{
+    background-color: blue;
+    border: 5px solid black;
+}
