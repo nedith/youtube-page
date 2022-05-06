@@ -3,8 +3,67 @@
     color: black;
     border: 2px solid brown;
     margin: 10px 0px;
-    width: auto;
-    height: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+   /* position: fixed;
+    top: 0;
+    overflow: hidden;*/
+    
+}
+.nav div{
+    height: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.5em 0;
+    width: 30px;
+    
+}
+
+.nav {
+    display: block;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.home{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.nav-left{
+    width: 200px;
+
+}
+
+.nav-left li{
+display: inline-block;
+}
+
+.nav-left .home{
+
+}
+
+
+.nav-right li{
+    display: inline;
+}
+
+.nav-right{
+    margin-left: 800px;
+}
+
+.nav-right a{
+    padding: 10px;
 }
 
 .video-section{
@@ -29,3 +88,4 @@
     justify-content: center;
     column-gap: 20px;
 }
+
