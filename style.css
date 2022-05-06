@@ -84,7 +84,6 @@ display: inline-block;
 
 .content{
     display: flex;
-    /*align-items: center;*/
     justify-content: center;
     column-gap: 20px;
 }
