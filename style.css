@@ -1,27 +1,28 @@
 *{
-    margin:0;
-    padding:0;
     box-sizing: border-box;
   }
 
   body{
     font-family: sans-serif;
+    background-color:rgb(236, 243, 243);
+    
   }
 
   .material-icons{
     color:rgb(12, 4, 4);
   }
 .nav-bar{
-    background-color: darkmagenta;
-    margin: 10px 0px;
+    margin-bottom: 10px;
     height: 70px;
-    /*padding:15px;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-   /* position: fixed;
+    cursor: pointer;
+    position: fixed;
+    width: 100%;
     top: 0;
-    overflow: hidden;*/  
+    left: 0;
+    background-color: rgb(250, 244, 244);
 }
 
 .nav-left{
@@ -52,8 +53,6 @@
 .nav-search form{
     height: 35px;
     border: 1px #ddd;
-   /* margin: 0;
-    padding: 0;*/
     display: flex;
 }
 
@@ -72,24 +71,76 @@
 }
 
 .video-section{
-    background-color: grey;
-    border: 2px solid rgb(165, 42, 128);
+   
     margin: 10px 0px;
     width: 700px;
-    height: 300px;
+   
 }
 
+ .video-section ul{
+    text-decoration: none;
+    
+}
+
+.video-section li{
+    display: inline;
+    padding-left: 20px;
+    cursor: pointer;
+  
+}
+
+
 .side-bar{
-    background-color: blue;
-    border: 5px solid black;
     margin: 10px 0px;
     width: 500px;
-    height: auto;
+     
 }
 
 .content{
     display: flex;
-    justify-content: center;
     column-gap: 20px;
+    background-color:rgb(236, 243, 243);
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 100vh;
+    
+ 
+
 }
+
+.buttons{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:rgb(236, 243, 243);
+}
+
+.previews{
+    cursor: pointer;
+}
+
+.previews img{
+    width: 200px;
+    height: auto;
+}
+
+.previews p{
+    font-size: small;
+    color: rgb(141, 138, 138);
+}
+.previews span{
+    font-size: small; 
+    color: rgb(141, 138, 138);
+}
+
+.preview-one{
+    display: flex;
+    column-gap: 5px;
+}
+
 
